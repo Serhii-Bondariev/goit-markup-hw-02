@@ -3,8 +3,23 @@ body {
   font-family: 'Roboto', sans-serif;
   background: #ffffff;
 }
+
+button :hover,
+button :focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
 button {
   cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .logo {
@@ -44,7 +59,7 @@ button {
 }
 
 .contact-email {
-
+  
   text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
@@ -126,25 +141,6 @@ button {
   color: #f4f4fd;
 }
 
-Features-list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 8px;
 
-  position: absolute;
-  width: 264px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
-}
-
-
-button :hover,
-button :focus {
-  background-color: #404bbf;
-  color: #ffffff;
-}
 
 
