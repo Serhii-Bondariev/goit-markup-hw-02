@@ -2,111 +2,117 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>portfolio</title>
-    <link rel="stylesheet" href="./styles/style.css" >
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <!-- Navigation on pages -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="page-header">
+      <nav class="header_navigation">
+        <a class="logo-stodio" href="./index.html">WebStudio</a>
+        <ul class="menu">
+          <li class="menu-item"><a class="menu-link" href="./index.html">Studio</a></li>
+          <li class="menu-item"><a class="menu-link" href="./portfolio.html">Portfolio</a></li>
+          <li class="menu-item"><a class="menu-link" href="./contacts.html">Contacts</a></li>
         </ul>
       </nav>
       <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="list">
+          <li class="link">
+            <a class="contact-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li class="link"><a class="contact-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
-    <!-- Main menu -->
+    
     <main>
       <section>
-        <h2 hidden>menu</h2>
-        <ul>
-          <li><a href="#all"></a>ALL</li>
-          <li><a href="#web-site"></a>Web Site</li>
-          <li><a href="#app"></a>App</li>
-          <li><a href="#design"></a>Design</li>
-          <li><a href="#marketing"></a>Marketing</li>
+        <h1 hidden>portfolio</h1>
+       <!-- Main menu -->
+        <ul class="filter-menu">
+          <li class="filter-menu-btn"><button type="button">ALL</button></li>
+          <li class="filter-menu-btn"><button type="button">Web Site</button></li>
+          <li class="filter-menu-btn"><button type="button">App</button></li>
+          <li class="filter-menu-btn"><button type="button">Design</button></li>
+          <li class="filter-menu-btn"><button type="button">Marketing</button></a></li>
         </ul>
-      </section>
+     
       <!-- Section one -->
-      <section>
-        <h2 hidden>section-one</h2>
-        <ul>
+      
+        
+        <ul class="section-one-list">
           <li>
             <img
               src="./images/banking_app_interface_concept.jpg"
               alt="banking_app_interface_concept"
-            >
+            />
           </li>
           <li><h3>Banking App Interface Concept</h3></li>
-          <li><p>App</p></li>
+          <li><p id="app">App</p></li>
         </ul>
         <ul>
-          <li><img src="./images/cashless_payment.jpg" alt="cashless_payment" ></li>
+          <li><img src="./images/cashless_payment.jpg" alt="cashless_payment" /></li>
           <li><h3>Cashless Payment</h3></li>
-          <li><p>Marketing</p></li>
+          <li><p id="marketing">Marketing</p></li>
         </ul>
         <ul>
-          <li><img src="./images/meditaion_app.jpg" alt="meditaion_app" ></li>
+          <li><img src="./images/meditaion_app.jpg" alt="meditaion_app" /></li>
           <li><h3>Meditaion App</h3></li>
-          <li><p>App</p></li>
+          <li><p id="app">App</p></li>
         </ul>
-      </section>
+      
       <!-- section two -->
-      <section>
-        <h2 hidden>section-two</h2>
+      
         <ul>
-          <li><img src="./images/taxi_service.jpg" alt="taxi_service" ></li>
+          <li><img src="./images/taxi_service.jpg" alt="taxi_service" /></li>
           <li><h3>Taxi Service</h3></li>
-          <li><p>Marketing</p></li>
+          <li><p id="marketing">Marketing</p></li>
         </ul>
         <ul>
-          <li><img src="./images/screen_illustrations.jpg" alt="screen_illustrations" ></li>
+          <li><img src="./images/screen_illustrations.jpg" alt="screen_illustrations" /></li>
           <li><h3>Screen Illustrations</h3></li>
-          <li><p>Design</p></li>
+          <li><p id="design">Design</p></li>
         </ul>
         <ul>
-          <li><img src="./images/online_courses.jpg" alt="online_courses" ></li>
+          <li><img src="./images/online_courses.jpg" alt="online_courses" /></li>
           <li><h3>Online Courses</h3></li>
-          <li><p>Marketing</p></li>
+          <li><p id="marketing">Marketing</p></li>
         </ul>
-      </section>
+     
       <!-- section-three -->
-      <section>
-        <h2 hidden>section-three</h2>
+      
         <ul>
           <li>
-            <img src="./images/instagram_stories_concept.jpg" alt="instagram_stories_concept" >
+            <img src="./images/instagram_stories_concept.jpg" alt="instagram_stories_concept" />
           </li>
           <li><h3>Instagram Stories Concept</h3></li>
-          <li><p>Design</p></li>
+          <li><p id="design">Design</p></li>
         </ul>
         <ul>
-          <li><img src="./images/organic_food.jpg" alt="organic_food" ></li>
+          <li><img src="./images/organic_food.jpg" alt="organic_food" /></li>
           <li><h3>Organic Food</h3></li>
-          <li><p>Web Site</p></li>
+          <li><p id="web-site">Web Site</p></li>
         </ul>
-        <ul>
-          <li><img src="./images/fresh_coffee.jpg" alt="fresh_coffee" ></li>
+        <ul\>
+          <li><img src="./images/fresh_coffee.jpg" alt="fresh_coffee" /></li>
           <li><h3>Fresh Coffee</h3></li>
-          <li><p>Web Site</p></li>
+          <li><p id="web-site">Web Site</p></li>
         </ul>
       </section>
     </main>
     <!-- Footer -->
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a class="logo-stodio" href="./index.html">WebStudio</a>
       <p>
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.
