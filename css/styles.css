@@ -9,7 +9,6 @@
 body {
   color: #434455;
   text-decoration-color: #434455;
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   background: #ffffff;
 }
@@ -31,8 +30,12 @@ button {
 .link {
   text-decoration: none;
 }
+.logo span {
+  color: #2e2f42;
+}
 
 .logo {
+  color: var(--accent-color);
   text-decoration: none;
   font-family: 'Raleway';
   font-weight: 800;
