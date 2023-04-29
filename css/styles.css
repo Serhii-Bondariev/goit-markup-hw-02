@@ -37,7 +37,7 @@ button {
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.13;
+  line-height: 1.17;
   text-transform: uppercase;
 }
 
@@ -46,8 +46,7 @@ button {
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
   text-transform: uppercase;
   color: #4d5ae5;
   flex: none;
