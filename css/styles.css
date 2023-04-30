@@ -93,6 +93,10 @@ body {
   color: var(--descr-color) #434455;
 }
 
+.site-menu-link{
+color: var(--descr-color);
+
+}
 .contacts {
   font-style: normal;
   color: var(--descr-color);
