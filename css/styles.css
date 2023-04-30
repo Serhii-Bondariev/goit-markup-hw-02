@@ -72,6 +72,9 @@ body {
 .contact-email:focus {
   color: var(--pressed-btn);
 }
+.button {
+  cursor: pointer;
+}
 
 .contact-email,
 .contact-phone {
