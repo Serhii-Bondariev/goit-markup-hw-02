@@ -90,7 +90,7 @@ body {
 }
 
 .hero-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -115,7 +115,7 @@ body {
   background-color: #404bbf;
 }
 .our-goal-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -131,7 +131,7 @@ body {
   color: #434455;
 }
 .we-doing-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -142,7 +142,7 @@ body {
   color: #2e2f42;
 }
 .our-team-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -154,7 +154,7 @@ body {
 }
 
 .our-team-members {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -165,7 +165,7 @@ body {
 }
 
 .our-team-desc {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -175,7 +175,7 @@ body {
   color: #434455;
 }
 .footer-dscr {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -198,7 +198,7 @@ body {
   background-color: #404bbf;
 }
 .filter-but {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -211,7 +211,7 @@ body {
 }
 
 .portfolio-title {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -225,7 +225,7 @@ body {
   color: #2e2f42;
 }
 .portfolio-dscr {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
