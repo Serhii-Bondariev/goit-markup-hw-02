@@ -85,6 +85,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--descr-color) #434455;
 }
+.our-team-item{
+  color: var(--descr-color);
+}
 .contacts {
   font-style: normal;
   color: var(--descr-color);
