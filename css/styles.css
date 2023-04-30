@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: var(--background-white) #ffffff;
+  background-color: var(--background-white);
 }
 /* ul - li  */
 .list {
@@ -94,13 +94,12 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 12.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 .modal-open-button {
-  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
