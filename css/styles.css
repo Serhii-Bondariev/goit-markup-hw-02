@@ -61,9 +61,6 @@ body {
 
 
 
-.site-menu {
-  color: var(--background-dark);
-} 
 
 .site-menu-link:hover,
 .site-menu-link:focus {
