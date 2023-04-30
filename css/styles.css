@@ -76,7 +76,7 @@ body {
   cursor: pointer;
   background-color: var(--background-light);
 }
-
+/* ______++++++++++++++Contacts */
 .contact,
 .contact {
   font-weight: 400;
@@ -88,6 +88,11 @@ body {
 .our-team-item{
   color: var(--descr-color);
 }
+
+.site-menu-list{
+color: var(--descr-color);
+}
+
 .contacts {
   font-style: normal;
   color: var(--descr-color);
