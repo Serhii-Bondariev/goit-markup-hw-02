@@ -145,6 +145,9 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.our-team {
+  background-color: #f4f4fd;
+}
 .our-team-title {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
