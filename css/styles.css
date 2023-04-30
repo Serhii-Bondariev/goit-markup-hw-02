@@ -54,6 +54,11 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.site-menu{
+color: var(--background-dark);
+
+}
+
 .site-menu-link:hover,
 .site-menu-link:focus {
   color: var(--pressed-btn);
