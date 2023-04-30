@@ -66,6 +66,13 @@ body {
   color: var(--pressed-btn);
 }
 
+.contact-phone,
+.contact-email:hover,
+.contact-phone,
+.contact-email:focus {
+  color: var(--pressed-btn);
+}
+
 .contact-email,
 .contact-phone {
   font-weight: 400;
