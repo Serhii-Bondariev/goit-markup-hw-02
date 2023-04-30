@@ -90,7 +90,7 @@ body {
 }
 
 .site-menu-list{
-color: var(--descr-color);
+  color: var(--descr-color) #434455;
 }
 
 .contacts {
