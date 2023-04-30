@@ -54,9 +54,8 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.site-menu{
-color: var(--background-dark);
-
+.site-menu {
+  color: var(--background-dark);
 }
 
 .site-menu-link:hover,
@@ -90,17 +89,16 @@ color: var(--background-dark);
   letter-spacing: 0.02em;
   color: var(--descr-color) #434455;
 }
-.our-team-item{
+.our-team-item {
   color: var(--descr-color);
 }
 
-.site-menu-list{
+.site-menu-list {
   color: var(--descr-color) #434455;
 }
 
-.site-menu-link{
-color: var(--descr-color);
-
+.site-menu-link {
+  color: var(--descr-color);
 }
 .contacts {
   font-style: normal;
@@ -166,7 +164,7 @@ color: var(--descr-color);
 .our-team {
   background-color: #f4f4fd;
 }
-.our-team-item{
+.our-team-item {
   background-color: #ffffff;
 }
 .our-team-list {
