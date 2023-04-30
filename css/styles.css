@@ -56,16 +56,19 @@ body {
 }
 .site-menu-link:hover,
 .site-menu-link:focus {
-  color: var(--pressed-state);
+  color: var(--pressed-btn);
 }
 .menu-link:hover,
 .menu-link:focus {
   color: var(--pressed-btn);
 }
 
-.contact-phone,
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--pressed-btn);
+}
+
 .contact-email:hover,
-.contact-phone,
 .contact-email:focus {
   color: var(--pressed-btn);
 }
