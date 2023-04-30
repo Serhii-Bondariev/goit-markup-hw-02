@@ -3,7 +3,7 @@
   --accent-color: #4d5ae5;
   --page-background-color: #ffffff;
   --additional-text-color: #434455;
-  --footer-text-color: #f4f4fd;
+  --footer-logo-color: #f4f4fd;
 }
 
 body {
@@ -73,7 +73,6 @@ button {
 }
 
 .top-line-web {
-  text-decoration: none;
   font-family: 'Raleway';
   font-weight: 800;
   font-size: 18px;
@@ -93,7 +92,7 @@ button {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -195,7 +194,7 @@ button {
   color: #f4f4fd;
 }
 
-.logo span {
+.logo-top {
   color: #2e2f42;
 }
 .logo:hover,
@@ -203,25 +202,10 @@ button {
   color: var(--accent-color);
 }
 .footer-logo-color {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height, or 117% */
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  /* CLOUD */
-
   color: #f4f4fd;
 
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
 }
