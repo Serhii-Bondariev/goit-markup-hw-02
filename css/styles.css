@@ -61,6 +61,10 @@ body {
 .site-menu-link:focus {
   color: var(--pressed-state);
 }
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-btn);
+}
 
 .contact-email,
 .contact-phone {
