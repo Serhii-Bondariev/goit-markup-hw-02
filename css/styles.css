@@ -50,14 +50,20 @@ body {
 }
 .site-menu-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--background-dark);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
-/* .site-menu {
+
+
+
+
+
+
+.site-menu {
   color: var(--background-dark);
-} */
+} 
 
 .site-menu-link:hover,
 .site-menu-link:focus {
