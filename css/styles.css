@@ -175,13 +175,53 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.footer {
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 1764px;
+
+  /* NAVY BLUE */
+
+  background: #2e2f42;
+}
 
 .footer-dskr {
-  background: #2e2f42;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.logo span {
+  color: #2e2f42;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.footer-logo-color {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* CLOUD */
+
+  color: #f4f4fd;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
