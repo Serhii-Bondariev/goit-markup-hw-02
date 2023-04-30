@@ -12,7 +12,7 @@ body {
   text-decoration: none;
 }
 /* colors */
-/* :root {
+:root {
   --background-dark: #2e2f42;
   --background-light: #f4f4fd;
   --background-white: #ffffff;
@@ -20,9 +20,9 @@ body {
   --pressed-btn: #404bbf;
   --title-color: #2e2f42;
   --descr-color: #434455;
-} */
+}
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
