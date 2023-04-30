@@ -149,6 +149,9 @@ body {
 .our-team {
   background-color: #f4f4fd;
 }
+.our-team-list {
+  background-color: #ffffff;
+}
 .our-team-title {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
