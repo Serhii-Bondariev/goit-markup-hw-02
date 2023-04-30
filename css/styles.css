@@ -1,7 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: var(--background-white);
+  font-size: 16px;
+  background-color: #ffffff
 }
 /* ul - li  */
 .list {
