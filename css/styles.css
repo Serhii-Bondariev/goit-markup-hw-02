@@ -65,7 +65,10 @@ body {
   color: var(--pressed-btn);
 }
 
-
+.contact:hover,
+.contact:focus {
+  color: var(--pressed-btn);
+}
 
 .contact:hover,
 .contact:focus {
