@@ -103,7 +103,7 @@ body {
 }
 .contact-link:hover,
 .contact-link:focus {
-  color: var(--pressed-state);
+  color: var(--pressed-btn)
 }
 
 .site-menu-link {
