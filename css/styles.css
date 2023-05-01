@@ -67,7 +67,9 @@ body {
 
 
 
-
+.contact:hover,
+.contact:focus {
+  color: var(--pressed-btn);
 }
 .button {
   cursor: pointer;
