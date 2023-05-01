@@ -79,6 +79,10 @@ body {
   background-color: var(--background-light);
 }
 /* ______++++++++++++++Contacts */
+
+.contacts-link{
+  color: var(--title-color);
+}
 .contact,
 .contact {
   font-weight: 400;
