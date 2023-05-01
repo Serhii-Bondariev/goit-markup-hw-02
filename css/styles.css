@@ -96,7 +96,7 @@ body {
 }
 
 .site-menu-link {
-  color: var(--descr-color);
+  color: var(--background-dark) #2e2f42;
 }
 .contacts {
   font-style: normal;
