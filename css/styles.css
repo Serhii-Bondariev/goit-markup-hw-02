@@ -156,10 +156,13 @@ body {
 }
 
 /* our-team  */
+.our-team {
+  background-color: #f4f4fd;
+}
 
 .our-team-item {
-  background-color: #f4f4fd;
   color: var(--descr-color);
+  background-color: #ffffff;
 }
 
 .our-team-title {
