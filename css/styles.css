@@ -158,20 +158,11 @@ body {
   color: var(--descr-color);
 }
 
-.our-team {
+/* .our-team {
   background-color: #f4f4fd;
-}
-
-.our-team-item {
-  background-color: #ffffff;
-}
-
-.our-team-list {
-  background-color: #ffffff;
-}
+} */
 
 .our-team-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -180,7 +171,6 @@ body {
 }
 
 .our-team-members {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -189,7 +179,6 @@ body {
 }
 
 .our-team-desc {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
