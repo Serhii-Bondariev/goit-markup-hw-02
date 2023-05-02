@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434455
+  color: #434455;
   font-size: 16px;
   background-color: #ffffff;
 }
@@ -106,6 +106,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -113,6 +114,7 @@ body {
 /* modal */
 
 .modal-open-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -147,12 +149,16 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
 
 /* our-team  */
+.our-team {
+  background-color: #f4f4fd;
+}
 
 .our-team-item {
   color: var(--descr-color);
@@ -162,10 +168,14 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--title-color);
 }
-
+.our-team-list {
+  background-color: #ffffff;
+}
 .our-team-members {
   font-weight: 500;
   font-size: 20px;
@@ -201,6 +211,7 @@ body {
   background-color: #404bbf;
 }
 .filter-but {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
